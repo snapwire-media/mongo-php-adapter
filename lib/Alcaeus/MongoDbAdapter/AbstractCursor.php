@@ -254,7 +254,7 @@ abstract class AbstractCursor
      */
     public function timeout($ms)
     {
-        trigger_error('The ' . __METHOD__ . ' method is not implemented in mongo-php-adapter', E_USER_WARNING);
+        // trigger_error('The ' . __METHOD__ . ' method is not implemented in mongo-php-adapter', E_USER_WARNING);
         return $this;
     }
 
